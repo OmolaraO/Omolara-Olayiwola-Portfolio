@@ -103,3 +103,10 @@ p {
   text-decoration: none;
   box-shadow: var(--primary-color);
 }
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 auto;
+    width: 50%;
+  }
+}
